@@ -13,7 +13,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    margin: 20px auto 0; 
+    margin: 0px auto; 
     padding: 20px 40px;
 }
 
@@ -77,14 +77,14 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 40px;                   
-    margin: 0 auto;             
+    margin: 0 auto;            
 }
 
 .title-content {
     font-size: 40px;
     font-weight: bold;
     color: #FFFFFF;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .span-content {
@@ -98,7 +98,7 @@ nav {
 .paragraph-content {
     font-size: 16px;
     color: #FFFFFF;
-    margin-bottom: 30px;
+    margin-bottom: px;
 }
 
 .button-build-container {
@@ -127,9 +127,65 @@ nav {
 }
 
 .image-home img {
-    width: 450px;
-    height: 350px;
+    width: 400px;
+    height: 300px;
 }
+
+.information-store {
+    width: 1200px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    flex-direction: row;
+    border-radius: 90px;
+    background: radial-gradient(circle at top left, #3A3456 0%, #211E2E 100%);
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 40px;
+    position: relative;
+    flex: 1;
+    justify-content: center;
+}
+
+.information:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.3);
+    
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info-text h3 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info-text p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 100;
+
+}
+
 
 
 
