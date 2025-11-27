@@ -183,8 +183,64 @@ nav {
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 100;
-
 }
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: 450px;
+    background: radial-gradient(circle at top left, #433D60 0%, #211E2E 100%);
+    border-radius: 40px;
+    padding: 23px 45px 40px 45px;
+    margin-top: 50px;
+}
+
+.card h2 {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+}
+
+.card p {
+    font-size: 10px;
+    color: #FFFFFF;
+    font-weight: 200;
+    margin-top: 15px;
+}
+
+.button-card {
+    width: 120px;
+    height: 44px;
+    border-radius: 40px;
+    background-color: #8176AF;
+    background: -webkit-linear-gradient(left, #8176AF 0%, #C0B7E8 100%);
+    background: -moz-linear-gradient(left, #8176AF 0%, #C0B7E8 100%);
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border: none;
+    font-weight: bold;
+    font-size: 10px;
+    color: #343045;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
 
 
 
